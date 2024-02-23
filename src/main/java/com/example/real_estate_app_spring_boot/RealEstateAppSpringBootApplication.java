@@ -17,15 +17,15 @@ public class RealEstateAppSpringBootApplication {
         List<PropertyEntity> houseList = propertyLists.initHouseList();
         List<PropertyEntity> villaList = propertyLists.initVillaLists();
 
-        System.out.println(propertyService.totCottageCost(cottageList));
-        System.out.println(propertyService.totHouseCost(houseList));
-        System.out.println(propertyService.totVillaCost(villaList));
-        System.out.println(propertyService.allTypeTotCost(villaList,cottageList,houseList));
+        System.out.println("total cost of cottages = " + propertyService.totCottageCost(cottageList));
+        System.out.println("total cost of houses = " + propertyService.totHouseCost(houseList));
+        System.out.println("total cost of villas = " + propertyService.totVillaCost(villaList));
+        System.out.println("total cost of all properties = " + propertyService.allTypeTotCost(villaList,cottageList,houseList));
 
-        System.out.println(propertyService.AvgCottageLandSize(cottageList));
-        System.out.println(propertyService.AvgHouseLandSize(houseList));
-        System.out.println(propertyService.AvgVillaLandSize(villaList));
-        System.out.println(propertyService.allTypesAvgLandSize(villaList, cottageList, houseList));
+        System.out.println("Average land size of cottages = " + propertyService.AvgCottageLandSize(cottageList));
+        System.out.println("Average land size of houses = " + propertyService.AvgHouseLandSize(houseList));
+        System.out.println("Average land size of villas = " + propertyService.AvgVillaLandSize(villaList));
+        System.out.println("Average land size of all properties = " + propertyService.allTypesAvgLandSize(villaList, cottageList, houseList));
 
     }
 
