@@ -32,11 +32,3 @@ This application relies on the Spring Boot framework for dependency injection an
 ## Output
 Upon running the application, the console will display the calculated total cost and average land size for each property type, as well as the aggregated values for all property types. 
 
-## Contributors
-- [Your Name]
-
-## License
-[Specify the license under which the application is distributed.]
-
-## Contact
-For any inquiries or issues, please contact [Your Email Address].
